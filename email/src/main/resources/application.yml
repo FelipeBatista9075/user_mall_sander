@@ -25,6 +25,7 @@ spring:
     username: ${RABBIT_USER}
     password: ${RABBIT_PASSWORD}
     virtual-host: ${RABBIT_USER}
+
     ssl:
       enabled: true
 
