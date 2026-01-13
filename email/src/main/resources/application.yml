@@ -24,7 +24,7 @@ spring:
     addresses: amqps://campbell.lmq.cloudamqp.com
     username: ${RABBIT_USER}
     password: ${RABBIT_PASSWORD}
-    virtual-host: eiudvsio
+    virtual-host: ${RABBIT_USER}
     ssl:
       enabled: true
 
